@@ -22,5 +22,3 @@ keymap('', 'sh', '<C-w>h', opts)
 keymap('', 'sk', '<C-w>k', opts)
 keymap('', 'sj', '<C-w>j', opts)
 keymap('', 'sl', '<C-w>l', opts)
-
-print("** core keymaps loaded ...")

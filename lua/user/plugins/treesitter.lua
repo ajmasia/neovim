@@ -4,6 +4,7 @@ if not status_ok then
 end
 
 treesitter.setup({
+  -- https://github.com/nvim-treesitter/nvim-treesitter#quickstart
 	-- A list of parser names, or "all" (the four listed parsers should always be installed)
 	ensure_installed = { "javascript", "typescript", "python", "css", "html", "json", "yaml", "nix", "lua" },
 
@@ -36,5 +37,3 @@ treesitter.setup({
 		additional_vim_regex_highlighting = false,
 	},
 })
-
-print("** treesitter plugin loaded ...")

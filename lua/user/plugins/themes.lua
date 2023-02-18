@@ -12,7 +12,3 @@ require("dracula").setup({
   -- https://github.com/Mofiqul/dracula.nvim#-configuration
   -- define here your settigns
 })
-
-
-print("** themes plugins loaded ...")
-

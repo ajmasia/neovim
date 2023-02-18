@@ -47,5 +47,3 @@ end
 for k, v in pairs(append_options) do
 	vim.opt[k]:append(v)
 end
-
-print("** core options loaded ...")

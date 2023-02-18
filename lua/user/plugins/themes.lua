@@ -14,5 +14,5 @@ require("dracula").setup({
 })
 
 
-print("** plugins themes settings loaded ...")
+print("** themes plugins loaded ...")
 

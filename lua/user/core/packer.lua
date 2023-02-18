@@ -40,10 +40,21 @@ packer.init({
 
 -- Install your plugins here
 return packer.startup(function(use)
-	-- Core plugins
 	-- plugin manager for neovim
 	-- https://github.com/wbthomason/packer.nvim
 	use("wbthomason/packer.nvim")
+    
+	-- themes
+	-- https://github.com/folke/tokyonight.nvim
+	use("folke/tokyonight.nvim")
+	-- https://github.com/rose-pine/neovim
+	use({
+		"rose-pine/neovim",
+		as = "rose-pine",
+	})
+  -- https://github.com/Mofiqul/dracula.nvim
+	use("Mofiqul/dracula.nvim")
+
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

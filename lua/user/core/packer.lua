@@ -55,6 +55,15 @@ return packer.startup(function(use)
 	-- https://github.com/Mofiqul/dracula.nvim
 	use("Mofiqul/dracula.nvim")
 
+	-- Fuzzy finder
+	-- https://github.com/nvim-telescope/telescope.nvim
+	use({
+		"nvim-telescope/telescope.nvim",
+		tag = "0.1.1",
+		-- or                            , branch = '0.1.x',
+		requires = { { "nvim-lua/plenary.nvim" } },
+	})
+
 	-- Syntax highlight
 	-- https://github.com/nvim-treesitter/nvim-treesitter
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })

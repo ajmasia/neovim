@@ -43,7 +43,7 @@ return packer.startup(function(use)
 	-- plugin manager for neovim
 	-- https://github.com/wbthomason/packer.nvim
 	use("wbthomason/packer.nvim")
-    
+
 	-- themes
 	-- https://github.com/folke/tokyonight.nvim
 	use("folke/tokyonight.nvim")
@@ -52,9 +52,12 @@ return packer.startup(function(use)
 		"rose-pine/neovim",
 		as = "rose-pine",
 	})
-  -- https://github.com/Mofiqul/dracula.nvim
+	-- https://github.com/Mofiqul/dracula.nvim
 	use("Mofiqul/dracula.nvim")
 
+	-- Syntax highlight
+	-- https://github.com/nvim-treesitter/nvim-treesitter
+	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

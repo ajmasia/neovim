@@ -9,7 +9,7 @@ lsp.preset({
 	name = "recommended",
 	set_lsp_keymaps = true,
 	manage_nvim_cmp = true,
-	suggest_lsp_servers = false
+	suggest_lsp_servers = false,
 })
 
 -- When you don't have mason.nvim installed
@@ -17,3 +17,5 @@ lsp.preset({
 lsp.setup_servers({ "lua_ls", force = true })
 
 lsp.setup()
+
+require("user.plugins.null-ls")

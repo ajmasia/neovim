@@ -92,6 +92,11 @@ return packer.startup(function(use)
 			{ "rafamadriz/friendly-snippets" }, -- Optional
 		},
 	})
+	-- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
+	-- Neovim doesn't provide a way for non-LSP sources to hook into its LSP client.
+	-- null-ls is an attempt to bridge that gap and simplify the process of creating,
+	-- sharing, and setting up LSP sources using pure Lua.
+	use("jose-elias-alvarez/null-ls.nvim")
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

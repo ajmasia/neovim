@@ -64,6 +64,9 @@ return packer.startup(function(use)
 		requires = { { "nvim-lua/plenary.nvim" } },
 	})
 
+	-- Format and editing
+	use("windwp/nvim-autopairs")
+
 	-- Syntax highlight
 	-- https://github.com/nvim-treesitter/nvim-treesitter
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })

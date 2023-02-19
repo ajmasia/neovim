@@ -50,6 +50,7 @@ return packer.startup(function(use)
 		as = "rose-pine",
 	})
 	use("Mofiqul/dracula.nvim")
+	use("navarasu/onedark.nvim")
 
 	-- Fuzzy finder
 	use({
@@ -60,7 +61,7 @@ return packer.startup(function(use)
 
 	-- Format and editing
 	use("windwp/nvim-autopairs")
-  use("kylechui/nvim-surround")
+	use("kylechui/nvim-surround")
 	use("JoosepAlviste/nvim-ts-context-commentstring")
 	use("numToStr/Comment.nvim")
 

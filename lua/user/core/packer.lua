@@ -67,6 +67,8 @@ return packer.startup(function(use)
 	-- Format and editing
 	use("windwp/nvim-autopairs")
   use("kylechui/nvim-surround")
+	use("JoosepAlviste/nvim-ts-context-commentstring")
+	use("numToStr/Comment.nvim")
 
 	-- Syntax highlight
 	-- https://github.com/nvim-treesitter/nvim-treesitter

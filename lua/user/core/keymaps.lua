@@ -18,7 +18,12 @@ keymap('n', '<C-a>', 'gg<S-v>G', opts)
 keymap('n', 'ss', ':split<Return><C-w>w', opts)
 keymap('n', 'sv', ':vsplit<Return><C-w>w', opts)
 
+-- Windows navigation
 keymap('', 'sh', '<C-w>h', opts)
 keymap('', 'sk', '<C-w>k', opts)
 keymap('', 'sj', '<C-w>j', opts)
 keymap('', 'sl', '<C-w>l', opts)
+
+-- Comments
+keymap('v', '<leader>/', '<Plug>(comment_toggle_linewise_visual)', opts)
+keymap('n', '<leader>/', '<Plug>(comment_toggle_linewise_current)', opts)

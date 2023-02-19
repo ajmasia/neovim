@@ -13,8 +13,8 @@ This is a provisional repo with my current Neovim settings, pending to be migrat
 
 ### GIT
 
-- [gitsigns.nvim: Git integration for buffers](https://github.com/lewis6994/gitsigns.nvim), super fast git decorations implemented purely in lua/teal. [CONFIG](./lua/user/plugins/gitsigns.lua)
-- [git-blame.nvim: Git Blame plugin for Neovim written in Lua](https://github.com/f-person/git-blame.nvim), a git blame plugin for Neovim written in Lua. [CONFIG](./lua/user/plugins/git-blame.lua)
+- [gitsigns.nvim](https://github.com/lewis6994/gitsigns.nvim), super fast git decorations implemented purely in lua/teal. [CONFIG](./lua/user/plugins/gitsigns.lua)
+- [git-blame.nvim](https://github.com/f-person/git-blame.nvim), a git blame plugin for Neovim written in Lua. [CONFIG](./lua/user/plugins/git-blame.lua)
 
 
 

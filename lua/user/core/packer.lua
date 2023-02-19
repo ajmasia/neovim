@@ -53,6 +53,9 @@ return packer.startup(function(use)
 	use("navarasu/onedark.nvim")
 	use("kyazdani42/nvim-web-devicons")
 
+	-- UI
+	use("folke/which-key.nvim")
+
 	-- Fuzzy finder
 	use({
 		"nvim-telescope/telescope.nvim",

@@ -4,4 +4,19 @@ if not status_ok then
 end
 
 ---@diagnostic disable-next-line: redundant-parameter
-telescope.setup()
+telescope.setup({
+  defaults = {},
+	pickers = {
+		find_files = {
+			theme = "dropdown",
+			hidden = true,
+			previewer = false,
+		},
+    git_files = {
+      theme = "dropdown",
+      hidden = true,
+      previewer = false,
+      show_untracked = true,
+    },
+	},
+})

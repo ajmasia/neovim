@@ -7,6 +7,7 @@ This is a provisional repo with my current Neovim settings, pending to be migrat
 - [ ] Define keymaps for lsp
 - [ ] Add gitsigns icons from `user.utils.icons`
 - [ ] Fix issue with split and move to windows keypans after some plugins install
+- [ ] Continue using `vim-fugitive`?
 
 
 ## Plugins
@@ -15,6 +16,7 @@ This is a provisional repo with my current Neovim settings, pending to be migrat
 
 - [gitsigns.nvim](https://github.com/lewis6994/gitsigns.nvim), super fast git decorations implemented purely in lua/teal. [CONFIG](./lua/user/plugins/gitsigns.lua)
 - [git-blame.nvim](https://github.com/f-person/git-blame.nvim), a git blame plugin for Neovim written in Lua. [CONFIG](./lua/user/plugins/git-blame.lua)
+- [vim-fugitive](https://github.com/tpope/vim-fugitive), a the premier Vim plugin for Git. [CONFIG](./lua/user/plugins/git-fugitive.lua)
 
 
 

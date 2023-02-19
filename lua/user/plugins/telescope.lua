@@ -4,7 +4,4 @@ if not status_ok then
 end
 
 ---@diagnostic disable-next-line: redundant-parameter
-telescope.setup({
-	-- https://github.com/nvim-telescope/telescope.nvim#customization
-	-- define here your settigns
-})
+telescope.setup()

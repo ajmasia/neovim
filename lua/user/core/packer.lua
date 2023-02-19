@@ -41,26 +41,20 @@ packer.init({
 -- Install your plugins here
 return packer.startup(function(use)
 	-- plugin manager for neovim
-	-- https://github.com/wbthomason/packer.nvim
 	use("wbthomason/packer.nvim")
 
 	-- themes
-	-- https://github.com/folke/tokyonight.nvim
 	use("folke/tokyonight.nvim")
-	-- https://github.com/rose-pine/neovim
 	use({
 		"rose-pine/neovim",
 		as = "rose-pine",
 	})
-	-- https://github.com/Mofiqul/dracula.nvim
 	use("Mofiqul/dracula.nvim")
 
 	-- Fuzzy finder
-	-- https://github.com/nvim-telescope/telescope.nvim
 	use({
 		"nvim-telescope/telescope.nvim",
 		tag = "0.1.1",
-		-- or                            , branch = '0.1.x',
 		requires = { { "nvim-lua/plenary.nvim" } },
 	})
 
@@ -71,11 +65,9 @@ return packer.startup(function(use)
 	use("numToStr/Comment.nvim")
 
 	-- Syntax highlight
-	-- https://github.com/nvim-treesitter/nvim-treesitter
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
 
 	-- LSP
-	-- https://github.com/VonHeikemen/lsp-zero.nvim
 	use({
 		"VonHeikemen/lsp-zero.nvim",
 		branch = "v1.x",

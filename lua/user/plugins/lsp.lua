@@ -3,8 +3,6 @@ if not status_ok then
 	return
 end
 
-print("LSP-ZERO")
-
 lsp.preset({
 	name = "recommended",
 	set_lsp_keymaps = true,

@@ -98,6 +98,7 @@ return packer.startup(function(use)
 
 	-- GIT
 	use("lewis6991/gitsigns.nvim")
+	use("f-person/git-blame.nvim")
 
 	-- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
 	-- Neovim doesn't provide a way for non-LSP sources to hook into its LSP client.

@@ -51,6 +51,7 @@ return packer.startup(function(use)
 	})
 	use("Mofiqul/dracula.nvim")
 	use("navarasu/onedark.nvim")
+	use("kyazdani42/nvim-web-devicons")
 
 	-- Fuzzy finder
 	use({

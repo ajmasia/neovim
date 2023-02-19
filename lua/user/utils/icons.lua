@@ -86,7 +86,6 @@ local icons = {
 		Error = "",
 		Warning = "",
 		Information = "",
-		Question = "",
 		Hint = "",
 	},
 	misc = {
